@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    font-size: 45px; /**standard title size, note this*/
+}
+
+.title_buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_buttons > button {
+    width: 180px;
+    height: 75px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 0px;
+    font-size: 18px; /**standard text size, note this*/
+    background-color: #fbd0aa;
+}
+
+.github_link {
+    position: absolute;
+    top: calc(100vh - 55px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.github_link > p {
+    transform: translateY(1.5px);
+}
+
+.small_link {
+    font-size: 12px;
+}
